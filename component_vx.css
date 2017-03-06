@@ -1,8 +1,9 @@
-*{
-    overflow-x: hidden;
+html,body{
+      overflow-x: hidden !important;
 }
 body {
 	background: url(wood.jpg);
+  
 }
 
 
@@ -62,7 +63,7 @@ padding:10px;
 	background: transparent url(shelf.png) no-repeat center center;
 	margin-top: -75px;
 	margin-right: 30px;
-	position: relative;
+	position: absolute;
 }
 
 
